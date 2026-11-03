@@ -1,0 +1,12 @@
+Nuclei scan 2026-10-26 19:2x-19:5x ET
+Target: https://paperclip.th3m3taway.com
+Options: -rl 10 -c 5 -s medium,high,critical -etags dos,intrusive,fuzz,bruteforce -no-interactsh
+Templates: 6051 signed (nuclei-templates latest)
+Result: 0 findings (medium 0, high 0, critical 0)
+Full log: nuclei-paperclip-20261026.log
+
+--- Batch 2, 2026-10-26 ~20:10-21:35 ET, same settings (-rl 10 -c 5, medium/high/critical, -etags dos,intrusive,fuzz,bruteforce, -no-interactsh) ---
+paperclip.metalotusgroup.com : 0 findings. NOTE: DNS resolves to 18.204.152.241 (AWS, not Cloudflare) and HTTPS gave no response; the tunnel ingress is not what serves this name. Check the DNS record.
+paperclip.m3talogistics.com  : 0 findings (medium 0, high 0, critical 0)
+paperclip.m3taza3y3lab.com   : 0 findings (medium 0, high 0, critical 0)
+Per-host logs: nuclei-paperclip.<host>-20261026.log

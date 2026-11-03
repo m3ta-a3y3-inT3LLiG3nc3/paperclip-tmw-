@@ -1,0 +1,58 @@
+{
+  "$meta": {
+    "version": 1,
+    "updatedAt": "2026-10-15T19:54:38.660Z",
+    "source": "configure"
+  },
+  "database": {
+    "mode": "postgres",
+    "connectionString": "postgres://paperclip_ai_lab:33fcdd4cfaada30d6b0b1f0094f25514aefbd1415ad17a2a8c4422a063151ea7@127.0.0.1:54329/paperclip_ai_lab",
+    "backup": {
+      "enabled": true,
+      "intervalMinutes": 60,
+      "retentionDays": 30,
+      "dir": "/Users/th3m3taway/.paperclip/instances/ai-lab/data/backups"
+    }
+  },
+  "logging": {
+    "mode": "file",
+    "logDir": "/Users/th3m3taway/.paperclip/instances/ai-lab/logs"
+  },
+  "server": {
+    "deploymentMode": "authenticated",
+    "exposure": "public",
+    "bind": "loopback",
+    "host": "127.0.0.1",
+    "port": 3102,
+    "allowedHostnames": [
+      "paperclip.m3taza3y3lab.com",
+      "localhost",
+      "127.0.0.1"
+    ],
+    "serveUi": true
+  },
+  "auth": {
+    "baseUrlMode": "explicit",
+    "publicBaseUrl": "https://paperclip.m3taza3y3lab.com",
+    "disableSignUp": true
+  },
+  "storage": {
+    "provider": "local_disk",
+    "localDisk": {
+      "baseDir": "/Users/th3m3taway/.paperclip/instances/ai-lab/data/storage"
+    }
+  },
+  "secrets": {
+    "provider": "local_encrypted",
+    "strictMode": false,
+    "localEncrypted": {
+      "keyFilePath": "/Users/th3m3taway/.paperclip/instances/ai-lab/secrets/master.key"
+    }
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "updates": {
+    "checkEnabled": true
+  }
+}

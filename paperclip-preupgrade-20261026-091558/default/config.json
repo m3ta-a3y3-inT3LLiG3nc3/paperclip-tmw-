@@ -1,0 +1,66 @@
+{
+  "$meta": {
+    "version": 1,
+    "updatedAt": "2026-10-14T21:15:02.854Z",
+    "source": "onboard"
+  },
+  "database": {
+    "mode": "postgres",
+    "embeddedPostgresDataDir": "/Users/th3m3taway/.paperclip/instances/default/db",
+    "embeddedPostgresPort": 54329,
+    "backup": {
+      "enabled": true,
+      "intervalMinutes": 60,
+      "retentionDays": 30,
+      "dir": "/Users/th3m3taway/.paperclip/instances/default/data/backups"
+    },
+    "connectionString": "postgres://paperclip_thm:3c99f8f2827d3dbb137a04cf2db9485de1992bbf6cc9764bfd3e7683aadc52a6523efe88@127.0.0.1:54329/paperclip"
+  },
+  "logging": {
+    "mode": "file",
+    "logDir": "/Users/th3m3taway/.paperclip/instances/default/logs"
+  },
+  "server": {
+    "deploymentMode": "authenticated",
+    "exposure": "public",
+    "bind": "loopback",
+    "host": "127.0.0.1",
+    "port": 3100,
+    "allowedHostnames": [
+      "paperclip.th3m3taway.com",
+      "localhost",
+      "127.0.0.1"
+    ],
+    "serveUi": true
+  },
+  "telemetry": {
+    "enabled": true
+  },
+  "updates": {
+    "checkEnabled": true
+  },
+  "auth": {
+    "baseUrlMode": "explicit",
+    "disableSignUp": true,
+    "publicBaseUrl": "https://paperclip.th3m3taway.com"
+  },
+  "storage": {
+    "provider": "local_disk",
+    "localDisk": {
+      "baseDir": "/Users/th3m3taway/.paperclip/instances/default/data/storage"
+    },
+    "s3": {
+      "bucket": "paperclip",
+      "region": "us-east-1",
+      "prefix": "",
+      "forcePathStyle": false
+    }
+  },
+  "secrets": {
+    "provider": "local_encrypted",
+    "strictMode": false,
+    "localEncrypted": {
+      "keyFilePath": "/Users/th3m3taway/.paperclip/instances/default/secrets/master.key"
+    }
+  }
+}

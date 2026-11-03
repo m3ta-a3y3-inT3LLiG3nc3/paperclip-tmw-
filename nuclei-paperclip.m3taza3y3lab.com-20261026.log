@@ -1,0 +1,20 @@
+WARNING: sonic/ast only supports (go1.17~1.26 and amd64 CPU) or (go1.20~1.26 and arm64 CPU), but your environment is not suitable and will fallback to encoding/json
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.11.1
+
+		projectdiscovery.io
+
+[INF] Current nuclei version: v3.11.1 (latest)
+[INF] Current nuclei-templates version: v10.5.1 (latest)
+[INF] New templates added in latest release: 68
+[INF] Templates loaded for current scan: 6051
+[INF] Executing 6051 signed templates from projectdiscovery/nuclei-templates
+[INF] Targets loaded for current scan: 1
+[INF] Templates clustered: 369 (Reduced 312 Requests)
+[INF] Scan completed in 21m. 0 matches found.
+[INF] HTTP connections: 8776 total, 959 new, 7817 reused (89.1%)
+EXIT 0

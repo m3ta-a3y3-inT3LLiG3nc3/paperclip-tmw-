@@ -1,0 +1,623 @@
+{
+ "projects": [
+  {
+   "name": "Synergy Haven",
+   "brand": "Synergy Haven",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-001",
+     "title": "Agree partnership terms with Michelle (50/50 proposed)",
+     "owner": "Kingdom+Michelle",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "synergy-haven-2026-10-22/damali-audit.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-002",
+     "title": "Michelle: confirm Jerk Fest booth application/category",
+     "owner": "Michelle",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "Linear TH3-28",
+     "gate": "none"
+    },
+    {
+     "key": "STG-003",
+     "title": "Michelle: send Synergy docs, Keynote, radio links",
+     "owner": "Michelle",
+     "priority": "P2",
+     "due": null,
+     "status": "todo",
+     "source": "Macro SYN-01/02",
+     "gate": "none"
+    },
+    {
+     "key": "STG-004",
+     "title": "Confirm Founders Circle outcome + consented contacts",
+     "owner": "Kingdom+Michelle",
+     "priority": "P2",
+     "due": null,
+     "status": "open",
+     "source": "synergy-haven/founders-circle-recap-draft-2026-10-15.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-005",
+     "title": "Orbit Synergy Haven status fix",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "staged",
+     "source": "parent conversation",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-006",
+     "title": "Export Damali Apple Notes calls for local Whisper",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "pending",
+     "source": "damali-audit.md \u00a75",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-007",
+     "title": "Repo triage issues #1-7 (TH3-29)",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "backlog",
+     "source": "Linear TH3-29",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Grace Jamaican Jerk Festival promo",
+   "brand": "Synergy Haven / BB / RISE / TMW / EDGE",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-008",
+     "title": "Answer 5 promo questions (KPIs, booth, scheduler, Omni socials, hashtag)",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "jerk-festival-2026-10-22/promo/campaign.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-009",
+     "title": "Approve promo calendar (104 posts from Oct 23)",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": "2026-10-23",
+     "status": "drafted",
+     "source": "jerk-festival-2026-10-22/promo/calendar.csv",
+     "gate": "Kingdom Confirm publish"
+    },
+    {
+     "key": "STG-010",
+     "title": "Replace Builder Brokerz placeholder logo/tagline in graphic",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "open",
+     "source": "promo/graphics-briefs.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-011",
+     "title": "Load approved posts into scheduler as drafts (Postiz/Buffer)",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "blocked",
+     "source": "promo/campaign.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-012",
+     "title": "Festival day activation",
+     "owner": "All",
+     "priority": "P1",
+     "due": "2026-11-08",
+     "status": "scheduled",
+     "source": "jerk-festival-2026-10-22/plan.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-013",
+     "title": "Recap content Nov 9-15",
+     "owner": "agent",
+     "priority": "P3",
+     "due": "2026-11-15",
+     "status": "planned",
+     "source": "promo/campaign.md",
+     "gate": "Kingdom Confirm publish"
+    }
+   ]
+  },
+  {
+   "name": "M3ta Connect (event lead app)",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-014",
+     "title": "Approve app plan incl. audit engine + lead-magnet report",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": null,
+     "status": "drafted",
+     "source": "event-lead-app-2026-10-22/app-plan.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-015",
+     "title": "Consent form + QR target for Jerk Fest badge/lead MVP",
+     "owner": "agent",
+     "priority": "P1",
+     "due": "2026-11-08",
+     "status": "planned",
+     "source": "event-lead-app-2026-10-22/README.md",
+     "gate": "Kingdom Confirm build"
+    },
+    {
+     "key": "STG-016",
+     "title": "Audit engine (site/GBP/socials/reviews) on free tools first",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "planned",
+     "source": "event-lead-app-2026-10-22/audit-engine.md",
+     "gate": "Paid tools need Confirm"
+    },
+    {
+     "key": "STG-017",
+     "title": "Lead-magnet report template (PDF + web), approve-before-send queue",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "planned",
+     "source": "event-lead-app-2026-10-22/lead-magnet-report.md",
+     "gate": "Every send: Kingdom approval"
+    },
+    {
+     "key": "STG-018",
+     "title": "Christopher Williams photo flow: selfie signup, match, watermark, Stripe test",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "planned",
+     "source": "event-lead-app-2026-10-22/christopher-williams-photo.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-019",
+     "title": "Revenue split + written agreement with Christopher Williams",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "open",
+     "source": "christopher-williams-photo.md",
+     "gate": "Kingdom"
+    },
+    {
+     "key": "STG-020",
+     "title": "Biometric consent/retention design, counsel review",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "christopher-williams-photo.md",
+     "gate": "Counsel"
+    },
+    {
+     "key": "STG-021",
+     "title": "Find Christopher Williams conversation notes (none found yet)",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "open",
+     "source": "christopher-williams-photo.md#source-findings",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Dormant apps to SaaS",
+   "brand": "RISE / EDGE / League / NPO Hero",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-022",
+     "title": "Confirm build order (NPO Hero, vision engine, League Core, RISE, EDGE, Pickleball, ADHD, music)",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "drafted",
+     "source": "dormant-apps-saas-2026-10-22/README.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-023",
+     "title": "Shared Sports Vision Engine spike (pose + audio hit)",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "planned",
+     "source": "dormant-apps-saas-2026-10-22/shared-vision-engine.md",
+     "gate": "Kingdom Confirm build"
+    },
+    {
+     "key": "STG-024",
+     "title": "Pickleball vision app with Derek Prince",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "planned",
+     "source": "dormant-apps-saas-2026-10-22/07-pickleball-vision-coach.md",
+     "gate": "Kingdom"
+    },
+    {
+     "key": "STG-025",
+     "title": "RISE whole-athlete app scope",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "drafted",
+     "source": "dormant-apps-saas-2026-10-22/03-rise-sports.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Qu3bii Jarvis",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-026",
+     "title": "Review prototype on branch kingdom/qu3bii-jarvis (box :8765)",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "in review",
+     "source": "qu3bii-jarvis-2026-10-22/PLAN.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-027",
+     "title": "Push/merge branch",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "blocked",
+     "source": "qu3bii-jarvis-2026-10-22/PLAN.md",
+     "gate": "Kingdom Confirm push"
+    }
+   ]
+  },
+  {
+   "name": "Lola in Ybor City film",
+   "brand": "Th3 M3ta Way",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-028",
+     "title": "Import existing push-staging (1 project, 8 issues; link Linear TH3-33) - see lola push-staging, not duplicated",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "staged",
+     "source": "lola-ybor-film-2026-10-22/push-staging/manifest.md",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-029",
+     "title": "James Scott / Mixed Gender League follow-up",
+     "owner": "Kingdom",
+     "priority": "P3",
+     "due": null,
+     "status": "open",
+     "source": "lola-ybor-film-2026-10-22/james-scott-mgbl.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Pickleball lead recovery",
+   "brand": "RISE / Pickleball",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-030",
+     "title": "Approve follow-up campaign to recovered leads",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "drafted",
+     "source": "pickleball-lead-recovery-2026-10-22/follow-up-campaign.md",
+     "gate": "Kingdom approval per send"
+    }
+   ]
+  },
+  {
+   "name": "Baptism event follow-up",
+   "brand": "M3taSyn4Lyfe / Ministry",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-031",
+     "title": "Approve follow-up campaign + testimonial plan",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "drafted",
+     "source": "baptism-event-followup-2026-10-22/README.md",
+     "gate": "Kingdom approval per send"
+    },
+    {
+     "key": "STG-032",
+     "title": "Minerals access next step",
+     "owner": "Kingdom",
+     "priority": "P3",
+     "due": null,
+     "status": "open",
+     "source": "baptism-event-followup-2026-10-22/minerals-access.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Sankofa House / MAM pitch site (Joel Patterson)",
+   "brand": "Sankofa House",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-033",
+     "title": "Review pitch site + proposed brand kit",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "drafted",
+     "source": "sankofa-house-mam-2026-10-22/README.md",
+     "gate": "Kingdom Confirm deploy"
+    },
+    {
+     "key": "STG-034",
+     "title": "Transcribe Joel calls when the other Mac is online",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "blocked",
+     "source": "transcripts/2026-10-22/BLOCKED.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "M3taSyn4Lyfe / Teresa / Thrive GLP",
+   "brand": "M3taSyn4Lyfe",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-035",
+     "title": "Review Teresa transcripts (21 done) + Thrive/Le-Vel GLP lane; she is a LactiGo distributor",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "in progress",
+     "source": "m3tasyn4lyfe-2026-10-22/teresa-stubbs.md",
+     "gate": "none"
+    },
+    {
+     "key": "STG-036",
+     "title": "Approve campaigns/funnels (no health claims)",
+     "owner": "Kingdom",
+     "priority": "P3",
+     "due": null,
+     "status": "drafted",
+     "source": "m3tasyn4lyfe-2026-10-22/campaigns.md",
+     "gate": "Kingdom Confirm"
+    }
+   ]
+  },
+  {
+   "name": "TikTok Shop affiliate",
+   "brand": "EDGE / multi-brand",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-037",
+     "title": "Approve first post + brand plans (#ad)",
+     "owner": "Kingdom",
+     "priority": "P3",
+     "due": null,
+     "status": "drafted",
+     "source": "tiktok-shop-affiliate-2026-10-22/first-post.md",
+     "gate": "Kingdom Confirm publish"
+    }
+   ]
+  },
+  {
+   "name": "Governed AI positioning",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-038",
+     "title": "Approve one-pager for outreach use",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "drafted",
+     "source": "governed-ai-onepager-2026-10-22/governed-ai-onepager.pdf",
+     "gate": "Kingdom Confirm send"
+    }
+   ]
+  },
+  {
+   "name": "Local intel stack (Screenpipe/Pieces/Hynote/Memo)",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-039",
+     "title": "Confirm Screenpipe wiring",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "open",
+     "source": "local-intel-sources-2026-10-22/wiring-plan.md",
+     "gate": "Kingdom Confirm install"
+    },
+    {
+     "key": "STG-040",
+     "title": "Hynote/Memo AI/Pieces evaluation",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "drafted",
+     "source": "local-intel-sources-2026-10-22/highest-value.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "AI frontier brainstorm",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-041",
+     "title": "Pick 1-2 bets from brainstorm",
+     "owner": "Kingdom",
+     "priority": "P3",
+     "due": null,
+     "status": "drafted",
+     "source": "ai-frontier-brainstorm-2026-10-22/README.md",
+     "gate": "none"
+    }
+   ]
+  },
+  {
+   "name": "Local transcription",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-042",
+     "title": "Continue batch of 396 recordings; report batches",
+     "owner": "agent",
+     "priority": "P2",
+     "due": null,
+     "status": "in progress",
+     "source": "~/M3ta-Transcripts (c0achs-MBP)",
+     "gate": "Confirmed by Kingdom"
+    },
+    {
+     "key": "STG-043",
+     "title": "Export Apple Notes-embedded audio (Damali ~30, others)",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "pending",
+     "source": "meetingz-records/apple-notes-calls.md",
+     "gate": "Kingdom Confirm"
+    }
+   ]
+  },
+  {
+   "name": "Security / credentials",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-044",
+     "title": "Rotate GitHub PAT exposed on Copilot mcp-remote cmdline",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "todo gh-token-rotate",
+     "gate": "Kingdom"
+    },
+    {
+     "key": "STG-045",
+     "title": "Rotate Growtheon gth_ key (unblocks CRM API)",
+     "owner": "Kingdom",
+     "priority": "P1",
+     "due": null,
+     "status": "open",
+     "source": "strategy/2026-10-05-ops-strategy-and-workflows.md",
+     "gate": "Kingdom"
+    }
+   ]
+  },
+  {
+   "name": "M3ta-OS platform backlog",
+   "brand": "M3ta-OS",
+   "status": "staged",
+   "issues": [
+    {
+     "key": "STG-046",
+     "title": "Crown/vault GitHub access for ADAM-0S",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "blocked",
+     "source": "todo aw-crown",
+     "gate": "Kingdom"
+    },
+    {
+     "key": "STG-047",
+     "title": "RAG P1: review MOVES.tsv + Confirm",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "blocked",
+     "source": "todo mac-rag-restructure",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-048",
+     "title": "th3m3taway DNS: DS at registrar, Vercel detach, DMARC",
+     "owner": "Kingdom",
+     "priority": "P2",
+     "due": null,
+     "status": "open",
+     "source": "todo tmw-dns-open",
+     "gate": "Kingdom Confirm"
+    },
+    {
+     "key": "STG-049",
+     "title": "NocoDB on Mac ODS; KNOWLAB-19 job-queue stubs",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "pending",
+     "source": "todo list",
+     "gate": "Kingdom Confirm install"
+    },
+    {
+     "key": "STG-050",
+     "title": "CopilotKit Intelligence: Lenovo key + fork sync",
+     "owner": "agent",
+     "priority": "P3",
+     "due": null,
+     "status": "blocked",
+     "source": "todo cpk-intel",
+     "gate": "Kingdom"
+    }
+   ]
+  }
+ ]
+}

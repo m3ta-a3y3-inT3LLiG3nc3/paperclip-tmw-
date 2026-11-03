@@ -1,0 +1,58 @@
+{
+  "$meta": {
+    "version": 1,
+    "updatedAt": "2026-10-15T19:54:38.702Z",
+    "source": "configure"
+  },
+  "database": {
+    "mode": "postgres",
+    "connectionString": "postgres://paperclip_meta_lotus:b823c5fd0bfc3c014ded05316662415b0e1f9d0ae9d262744c97e5c81d4bc962@127.0.0.1:54329/paperclip_meta_lotus",
+    "backup": {
+      "enabled": true,
+      "intervalMinutes": 60,
+      "retentionDays": 30,
+      "dir": "/Users/th3m3taway/.paperclip/instances/meta-lotus/data/backups"
+    }
+  },
+  "logging": {
+    "mode": "file",
+    "logDir": "/Users/th3m3taway/.paperclip/instances/meta-lotus/logs"
+  },
+  "server": {
+    "deploymentMode": "authenticated",
+    "exposure": "public",
+    "bind": "loopback",
+    "host": "127.0.0.1",
+    "port": 3103,
+    "allowedHostnames": [
+      "paperclip.metalotusgroup.com",
+      "localhost",
+      "127.0.0.1"
+    ],
+    "serveUi": true
+  },
+  "auth": {
+    "baseUrlMode": "explicit",
+    "publicBaseUrl": "https://paperclip.metalotusgroup.com",
+    "disableSignUp": true
+  },
+  "storage": {
+    "provider": "local_disk",
+    "localDisk": {
+      "baseDir": "/Users/th3m3taway/.paperclip/instances/meta-lotus/data/storage"
+    }
+  },
+  "secrets": {
+    "provider": "local_encrypted",
+    "strictMode": false,
+    "localEncrypted": {
+      "keyFilePath": "/Users/th3m3taway/.paperclip/instances/meta-lotus/secrets/master.key"
+    }
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "updates": {
+    "checkEnabled": true
+  }
+}

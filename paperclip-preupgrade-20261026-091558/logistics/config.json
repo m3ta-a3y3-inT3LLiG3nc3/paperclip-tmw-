@@ -1,0 +1,58 @@
+{
+  "$meta": {
+    "version": 1,
+    "updatedAt": "2026-10-15T19:54:38.616Z",
+    "source": "configure"
+  },
+  "database": {
+    "mode": "postgres",
+    "connectionString": "postgres://paperclip_logistics:4e2927f5bc20e48de9e39b1bd7bf313c599b993fd74802ca1ae17461f09d7fa9@127.0.0.1:54329/paperclip_logistics",
+    "backup": {
+      "enabled": true,
+      "intervalMinutes": 60,
+      "retentionDays": 30,
+      "dir": "/Users/th3m3taway/.paperclip/instances/logistics/data/backups"
+    }
+  },
+  "logging": {
+    "mode": "file",
+    "logDir": "/Users/th3m3taway/.paperclip/instances/logistics/logs"
+  },
+  "server": {
+    "deploymentMode": "authenticated",
+    "exposure": "public",
+    "bind": "loopback",
+    "host": "127.0.0.1",
+    "port": 3101,
+    "allowedHostnames": [
+      "paperclip.m3talogistics.com",
+      "localhost",
+      "127.0.0.1"
+    ],
+    "serveUi": true
+  },
+  "auth": {
+    "baseUrlMode": "explicit",
+    "publicBaseUrl": "https://paperclip.m3talogistics.com",
+    "disableSignUp": true
+  },
+  "storage": {
+    "provider": "local_disk",
+    "localDisk": {
+      "baseDir": "/Users/th3m3taway/.paperclip/instances/logistics/data/storage"
+    }
+  },
+  "secrets": {
+    "provider": "local_encrypted",
+    "strictMode": false,
+    "localEncrypted": {
+      "keyFilePath": "/Users/th3m3taway/.paperclip/instances/logistics/secrets/master.key"
+    }
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "updates": {
+    "checkEnabled": true
+  }
+}
